@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header .container .navbar .logo span {
+    color: #6e4040;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+.header .container nav ul :hover {
+    color: rgb(124, 86, 49);
+    transition: all .5s ease 0s;
+    transform: scale(1.1);
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.non-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.non-2 h1 {
+    text-shadow: 3px 2px 2px rgb(61, 56, 52);
+}
+.non-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+.non-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #dd7907;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background: #8a4618;
+}
+.header {
+    background: radial-gradient(#fff,#ccc5c5);
+}
+
+.products {
+    text-align: center;
+    background: radial-gradient(#fff,#fcf0f0);
+}
+
+.products .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+} 
+
+.products .pro {
+    width: 22%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    margin: 13px 0;
+}
+
+.products .pro img {
+    width: 75%;
+    border-radius: 20px;
+}
+
+.parallax {
+    padding: 128px 7% 18px;
+    color: #fffefe;
+}
+
+.parallax .about h1, .Contact p {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.parallax .about p {
+    mix-blend-mode: difference;
+}
+.parallax {
+    background-image: url('gambar/fri12.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.Contact h2 { 
+    text-align: center;
+    padding: 128px 7% 18px;
+}
+
+.Contact {
+    background: rgb(255, 255, 255);
+}
+.Contact .row {
+    display: flex;
+    margin-top: 32px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Contact .row form {
+    flex: 1 1 45rem;
+    padding: 80px 32px;
+    text-align: center;
+}
+
+.Contact .row form .input-data {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    background-color: #f5f5f5;
+    border: 1px solid #968b8b;
+    padding-left: 32px;
+}
+
+.Contact .row form .input-data input {
+    width: 100%;
+    padding: 32px;
+    font-size: 20px;
+    border: none;
+}
+
+.Contact .row form .lok {
+    margin-top: 48px;
+    display: inline-block;
+    padding: 16px 48px;
+    font-size: 20px;
+    color: #000000;
+    background:  #ffffff;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+footer {
+    background: #868383;
+    text-align: center;
+    padding: 16px 0 ;
+    margin-top: 48px;
+}
+
+footer .footer a {
+    color: #adabab;
+}
+
+
+
